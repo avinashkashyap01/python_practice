@@ -1,0 +1,9 @@
+
+a = 1
+n = 1
+for i in range(1,5):
+    for j in range(1,a+1):
+        print(n,end=" ")
+        n = n + 1
+    a = a + 1
+    print()
